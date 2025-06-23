@@ -1,0 +1,31 @@
+name: gymovo_new
+description: Gymovo – אפליקציית כושר מודרנית בפיתוח Flutter.
+publish_to: "none" # לא מפורסם ל-pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # חבילות בסיסיות – להרחיב בעתיד לפי צורך
+  # provider: ^6.1.2
+  # shared_preferences: ^2.2.3
+  # intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/translations/
+    - assets/demo_data/
